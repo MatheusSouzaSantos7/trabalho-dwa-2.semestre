@@ -1,0 +1,64 @@
+
+/* Estilização do navegador */
+nav{
+    padding: 1em 0em;
+    width: 100%;
+    position: fixed;
+    background-color: #414141;
+    font-weight: normal;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+nav ul li{
+    padding: 0em 1.5em;
+    font-weight: normal;
+    list-style-type: none;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+}
+/* Criação de estilo do header */
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+header div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #54dbdb;
+}
+
+header div span{
+    display: block;
+}
+
+/* Estilo da logo */
+.logo-2{
+    padding: 0.1em;
+    font-size: 4em;
+    font-weight: bold;
+    margin-left: -5px;
+}
+.logo-2 span{
+    background: linear-gradient(to right, #1c0333, #38125c, #a03aff, #cd98ff);
+    background-clip: text;
+    color: transparent;
+}
+
+.logo-3{
+    font-size: 0.8em;
+    letter-spacing: 4px;
+}

@@ -1,1 +1,37 @@
-<p>home works!</p>
+<!-- O header servirá para adicionar as navegações de início, usuário e sobre nós. A página de "sobre nós" deve ser igual para todos -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="" target="_parent">Início</a></li>
+            <li><a href="" target="_parent">Perfil</a></li>
+            <li><a href="" target="_parent">Sobre nós</a></li>
+        </ul>
+    </nav>
+    <div>
+        <span class="logo-1">Olá! seja bem vindo</span>
+        <span class="logo-2"><span>{{ NomeUsuario }}</span></span>
+        <span class="logo-3">Apenas mais um trabalho de DWA</span>
+    </div>
+</header>
+<!-- Em main, vai ter todas as postagem e também vai ter as postagens já criadas-->
+<main>
+    <!-- Formuário que cria a postagem e envia para o Back-End -->
+    <form (submit)="enviarPostagem()">
+        <div class="user-info">
+            <!-- Foto e nome do usuário -->
+            <img [src]="UrlFotoUsuario" alt="foto do usuário">
+            <span>{{ NomeUsuario }}</span>
+        </div>
+    </form>
+
+    <div class="comentario-input">
+        <!-- Campo de entrada de texto para a postagem -->
+        <textarea [(ngModel)]="NovaPostagem" placeholder="Escreva sua postagem aqui"></textarea>
+    </div>
+    <!-- Botões para enviar e cancelar -->
+    <div class="botao">
+        <button type="submit">Postar</button>
+        <button type="button" (click)="limparPostagem()">Cancelar</button>
+    </div>
+
+</main>
