@@ -30,7 +30,7 @@ export class CadastroComponent implements OnInit {
   }
 
   submit() {
-    this.http.post('http://localhost:8000/api/register', this.form.getRawValue()).subscribe(() => {
+    this.http.post('http://localhost:8000/register', this.form.getRawValue()).subscribe(() => {
       this.router.navigate(['/login']);
     })
   }

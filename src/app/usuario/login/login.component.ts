@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
   }
 
   submit() {
-    this.http.post('http://localhost:8000/api/login', this.form.getRawValue(), { withCredentials: true }).subscribe((res: any) => {
+    this.http.post('http://localhost:8000/login', this.form.getRawValue(), { withCredentials: true }).subscribe((res: any) => {
       AuthInterceptor.accessToken = res.token;
       this.router.navigate(['/']);
     })

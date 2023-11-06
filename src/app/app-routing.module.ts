@@ -17,7 +17,8 @@ const routes: Routes = [
   { path:'comentarios', component:ComentarioComponent },
   { path:'postagens-criadas', component:ShowPostagemComponent },
   { path:'seguidores', component:SeguirComponent },
-  { path: 'criar-postagem', component: AddEditPostComponent },
+  { path: 'criar-postagem', component:AddEditPostComponent },
+  { path: 'cadastro', component:CadastroComponent  },
   { path: '', component: LoginComponent}
 ];
 
