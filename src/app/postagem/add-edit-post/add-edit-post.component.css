@@ -1,0 +1,43 @@
+#formulario_postagem {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30em;
+    margin: 0 auto;
+  }
+  
+  #formulario_postagem p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .NovaPostagem {
+    width: 100%;
+    min-height: 20em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+    margin-bottom: 15px;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  #botao_postagem {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #botao_postagem:hover {
+    background-color: #0056b3;
+  }
+  

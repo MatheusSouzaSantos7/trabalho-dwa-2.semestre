@@ -1,0 +1,13 @@
+  <div id="formulario_postagem">
+    <p>Crie uma postagem!</p>
+    <form (submit)="adicionarPostagem()">
+      <textarea class="NovaPostagem" [(ngModel)]="NovaPostagem" placeholder="Escreva sua postagem aqui"></textarea>
+      <button id="botao_postagem" type="submit">Postar</button>
+    </form>
+  
+    <!-- Exibição da resposta do servidor -->
+    <div id="respota" *ngIf="respostaDoServidor">
+      Resposta do servidor: {{ respostaDoServidor }}
+    </div>
+  </div>
+  

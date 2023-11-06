@@ -1,0 +1,32 @@
+.postagens-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50em;
+  margin: 0 auto; /* Isso adicionará margens automáticas horizontalmente, centralizando o conteúdo */
+  }
+  
+  .postagem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .postagem-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .postagem-autor {
+    font-weight: bold;
+  }
+  
+  .postagem-data {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .postagem-texto {
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,12 @@
+<p>Aba de postagens anteriores</p>
+<div class="postagens-container">
+  <div *ngFor="let postagem of postagens" class="postagem">
+    <div class="postagem-info">
+      <span class="postagem-autor">{{ postagem.autor }}</span>
+      <span class="postagem-data">{{ postagem.data }}</span>
+    </div>
+    <div class="postagem-texto">
+      {{ postagem.texto }}
+    </div>
+  </div>
+</div>

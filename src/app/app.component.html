@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <button routerLink="/" class="m-1 btn btn-dark btn-outline-light" Button>Home</button>
+        </li>
+        <!--<li class="navbar-item">
+          <button routerLink="assuntos" class="m-1 btn btn-dark btn-outline-light"Button>Categorias</button>
+        </li> -->
+        <li class="navbar-item">
+          <button routerLink="criar-postagem" class="m-1 btn btn-dark btn-outline-light"Button>Criar postagem</button>
+        </li>
+        <li class="navbar-item">
+          <button routerLink="postagens-criadas" class="m-1 btn btn-dark btn-outline-light"Button>Ler postagens</button>
+        </li>
+
+
+      </ul>
+
+    </nav>
+   
+    <router-outlet></router-outlet>
+
+  </div>
+
+</body>
+
+</html>
+
